@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdsForMyOtherApps_Example' do
+  pod 'AdsForMyOtherApps', :path => '../'
+
+  target 'AdsForMyOtherApps_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
