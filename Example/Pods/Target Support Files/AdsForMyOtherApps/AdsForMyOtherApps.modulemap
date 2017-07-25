@@ -1,0 +1,6 @@
+framework module AdsForMyOtherApps {
+  umbrella header "AdsForMyOtherApps-umbrella.h"
+
+  export *
+  module * { export * }
+}

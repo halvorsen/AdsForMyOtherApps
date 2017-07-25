@@ -1,0 +1,6 @@
+framework module Pods_AdsForMyOtherApps_Tests {
+  umbrella header "Pods-AdsForMyOtherApps_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

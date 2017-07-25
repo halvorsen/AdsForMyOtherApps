@@ -1,0 +1,16 @@
+PODS:
+  - AdsForMyOtherApps (0.1.0)
+
+DEPENDENCIES:
+  - AdsForMyOtherApps (from `../`)
+
+EXTERNAL SOURCES:
+  AdsForMyOtherApps:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdsForMyOtherApps: 9910ba897e238b762c175b55b36cbc41bc101020
+
+PODFILE CHECKSUM: 13c1572f588a2e7f93a9c4f124a020a8ae1600a2
+
+COCOAPODS: 1.2.1

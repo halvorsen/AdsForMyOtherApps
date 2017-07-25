@@ -1,0 +1,22 @@
+{
+  "name": "AdsForMyOtherApps",
+  "version": "0.1.0",
+  "summary": "A short description of AdsForMyOtherApps.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/halvorsen/AdsForMyOtherApps",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "halvorsen": "“aaron.halvorsen@gmail.com\ngit config --global user.name  “halvorsen"
+  },
+  "source": {
+    "git": "https://github.com/halvorsen/AdsForMyOtherApps.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AdsForMyOtherApps/Classes/**/*"
+}
