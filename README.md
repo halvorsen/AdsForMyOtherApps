@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AdsForMyOtherApps.svg?style=flat)](http://cocoapods.org/pods/AdsForMyOtherApps)
 
 <p align="center">
-<img src="http://aaronhalvorsen.com/resources/advertisementExample.gif" alt="DynamicButton" />
+<img src="http://aaronhalvorsen.com/resources/advertisementExample.gif" width="375" height="667" alt="DynamicButton" />
 </p>
 
 ## Example
