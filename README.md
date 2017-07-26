@@ -17,13 +17,13 @@
 
 3. AdsForMyOtherApps calls a view to overlay your current view by initializing class `Advertisement(images: [UIImage], seconds: Int?, url: String, target: UIViewController)`. 
 
-    3a. One or more images will play like a slide show over the amount of seconds specified. Put images in the Images.xcassets folder, the image will autofill as you enter it into the UIImage array. Full screen images are 375x667.
+    3a. One or more images will play like a slide show over the amount of seconds specified. Put images in the Images.xcassets folder, the image will autofill as you enter it into the UIImage array argument. 1x full screen images are 375x667.
 
     3b. Amount of seconds (optional) will not allow user to exit until countdown reaches zero and "x" appears. 
 
-    3c. If seconds is set to "nil", an "x" will appear immediately and there will be no countdown.
+    3c. If seconds argument is set to "nil", an "x" will appear immediately and there will be no countdown.
 
-    3d. Target is the current ViewController.
+    3d. Target argument is the current ViewController.
 
 For Example:
 
