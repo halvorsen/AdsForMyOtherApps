@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/AdsForMyOtherApps.svg?style=flat)](http://cocoapods.org/pods/AdsForMyOtherApps)
 [![Platform](https://img.shields.io/cocoapods/p/AdsForMyOtherApps.svg?style=flat)](http://cocoapods.org/pods/AdsForMyOtherApps)
 
+<p align="center">
+<img src="http://aaronhalvorsen.com/resources/advertisementExample.gif" alt="DynamicButton" />
+</p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
