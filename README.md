@@ -13,7 +13,7 @@
 
 1. To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-2. import `AdsForMyOtherApps`
+2. `import AdsForMyOtherApps`
 
 3. AdsForMyOtherApps calls a view to overlay your current view by initializing class `Advertisement(images: [UIImage], seconds: Int?, url: String, target: UIViewController)`. 
 
@@ -44,7 +44,7 @@ pod "AdsForMyOtherApps"
 
 ## Author
 
-halvorsen, “aaron.halvorsen@gmail.com
+Halvorsen, “aaron.halvorsen@gmail.com
 git config --global user.name  “halvorsen
 
 ## License
