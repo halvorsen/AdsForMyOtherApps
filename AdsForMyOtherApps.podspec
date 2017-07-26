@@ -10,7 +10,7 @@ An alternative to Google Ads, this pod allows you to create advertisement views 
                        DESC
 
   s.homepage         = 'https://github.com/halvorsen/AdsForMyOtherApps'
-  s.screenshots     = 'http://aaronhalvorsen.com/resources/advertisementExample.gif'
+  s.screenshots     = 'http://aaronhalvorsen.com/resources/adExample.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'halvorsen' => '“aaron.halvorsen@gmail.com
 git config --global user.name  “halvorsen' }
