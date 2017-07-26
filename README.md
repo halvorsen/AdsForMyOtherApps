@@ -13,17 +13,17 @@
 
 1. To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-2. import AdsForMyOtherApps
+2. import `AdsForMyOtherApps`
 
 3. AdsForMyOtherApps calls a view to overlay your current view by initializing class `Advertisement(images: [UIImage], seconds: Int?, url: String, target: UIViewController)`. 
 
-3a. One or more images will play like a slide show over the amount of seconds specified. Put images in the Images.xcassets folder, the image will autofill as you enter it into the UIImage array.
+    3a. One or more images will play like a slide show over the amount of seconds specified. Put images in the Images.xcassets folder, the image will autofill as you enter it into the UIImage array.
 
-3b. Amount of seconds (optional) will not allow user to exit until countdown reaches zero and "x" appears. 
+    3b. Amount of seconds (optional) will not allow user to exit until countdown reaches zero and "x" appears. 
 
-3c. If seconds is set to "nil", an "x" will appear immediately and there will be no countdown.
+    3c. If seconds is set to "nil", an "x" will appear immediately and there will be no countdown.
 
-3d. Target is the current ViewController.
+    3d. Target is the current ViewController.
 
 For Example:
 
