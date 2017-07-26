@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let myView = ViewAdExampleCode(backgroundColor: .white, buttonsColor: CustomColor.shared.color1, target: self)
+        view.addSubview(myView)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,6 +9,20 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+AdsForMyOtherApps calls a view to overlay your current view by initializing class `Advertisement(images: [UIImage], seconds: Int?, url: String, target: UIViewController)`. 
+
+One or more images will play like a slide show over the amount of seconds specified. 
+
+Amount of seconds (optional) will not allow user to exit until countdown reaches zero and "x" appears. 
+
+If seconds is set to "nil", an "x" will appear immediately and there will be no countdown. Target is the current ViewController.
+
+For Example:
+
+```swift
+let adView = Advertisement(images: [#imageLiteral(resourceName: "RansomAd"),#imageLiteral(resourceName: "RansomAd2"),#imageLiteral(resourceName: "RansomAd3")], seconds: 10, url: "itms-apps://itunes.apple.com/app/id1192831637", target: self)
+```
+
 ## Requirements
 
 ## Installation
