@@ -27,7 +27,8 @@ public class Advertisement: UIView {
     }
     
     private func touchDown(atPoint pos : CGPoint) {
-        if countLabel.text! == "" && pos.x > 250*sw && pos.y < 150*sh {
+        guard let labelText = countLabel.text else {return}
+        if labelText == "" && pos.x > 250*sw && pos.y < 150*sh {
             UIView.animate(withDuration: 0.4) {
                 self.frame.origin.x = 375*self.sw
             }
